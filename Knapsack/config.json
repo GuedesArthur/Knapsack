@@ -1,20 +1,48 @@
 {
-  "algorithm": "All",
+  "algorithm": "All", //BruteForce, Greedy, Lazy, All
   "measurePerf": true,
-  "maxWeight": 200,
-  "n": 3,
+  "maxWeight": 135, //135, 180, 270
+  "n": 4, //4, 5, 6
   "items": [
     {
+      "weight": 12,
+      "value": 151
+    },
+    {
+      "weight": 16,
+      "value": 188
+    },
+    {
+      "weight": 13,
+      "value": 131
+    },
+    {
+      "weight": 11,
+      "value": 110
+    },
+    {
       "weight": 10,
-      "value": 20
+      "value": 98
+    },
+    {
+      "weight": 19,
+      "value": 176
     },
     {
       "weight": 20,
-      "value": 45
+      "value": 182
     },
     {
-      "weight": 3,
-      "value": 3
+      "weight": 15,
+      "value": 114
+    },
+    {
+      "weight": 18,
+      "value": 126
+    },
+    {
+      "weight": 14,
+      "value": 75
     }
   ]
 }
