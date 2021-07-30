@@ -123,7 +123,7 @@ int Knapsack::GreedyR(int capacity, int n, vector<Item>& sortedList, int value)
 // Lazy algorithm
 int Knapsack::Lazy(int maxWeight, int n, vector<Item>& itemList)
 {
-	StopWatch sw("\nStoring matrix" + to_string(n) + " X " +to_string(maxWeight + 1));
+	StopWatch sw("\nStoring matrix " + to_string(n) + " X " +to_string(maxWeight + 1));
 	// Creates matrix(n, w), for storing item values
 	LazyMatrix matrix(n, std::vector<optional<int>>(maxWeight + 1));
 	sw.Stop();
